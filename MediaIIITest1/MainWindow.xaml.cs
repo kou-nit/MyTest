@@ -100,7 +100,7 @@ namespace MediaIIITest1
             DoubleAnimation animation = new DoubleAnimation { From = 10, To = 100, Duration = new Duration(TimeSpan.FromMilliseconds(1000)) };
             animation.RepeatBehavior = new RepeatBehavior(1);
             Storyboard.SetTarget(animation, Tempo);
-            Storyboard.SetTargetProperty(animation, new PropertyPath();
+            //Storyboard.SetTargetProperty(animation, new PropertyPath();
         }
     }
 }
